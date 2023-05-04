@@ -12,3 +12,4 @@ B2=[1 2; 3 4; 5 6]
 A*B2'    %NO ERROR
 A/B
 A.*B %dot product(element by element)
+A./B  %element by element division
