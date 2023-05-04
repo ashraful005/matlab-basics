@@ -8,4 +8,4 @@ A\b';
 det(A)  %determinant
 eig(A)   %eigenvalues
 [v,D]= eig(A)  %eigenvalues and eigenvectors
-A*v - v*D
+A*v == v*D
