@@ -6,3 +6,4 @@ b=[1 -2 0];
 result=inv(A)*b';
 A\b';
 det(A)  %determinant
+eig(A)   %eigenvalues
