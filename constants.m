@@ -9,3 +9,4 @@ sin(A)
 exp(A)
 log(A)
 sqrt(A)
+pi
