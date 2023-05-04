@@ -18,3 +18,11 @@ for i=1:10
         y(i)=0
     end
 end
+
+S=0;
+for i=1:10
+    if mod(x(i),3)==0
+        S=S+x(i);
+    end
+end
+disp(S);

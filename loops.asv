@@ -9,4 +9,15 @@ end
 SSE
 mse = SSE/1000
 
-x
+x=1:10;
+y=zeros(1,10);
+for i=1:10
+    if mod(x(i), 2)==0
+        y(i)=1;
+    else
+        y(i)=0
+    end
+end
+
+for i=1:10
+    if mod
