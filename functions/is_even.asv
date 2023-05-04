@@ -1,6 +1,0 @@
-function y = is_even(num)
-%IS_EVEN returns 1 if x is even
-outputArg1 = inputArg1;
-outputArg2 = inputArg2;
-end
-
