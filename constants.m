@@ -19,3 +19,4 @@ sin(pi)+i*cos(pi)
 
 eye(3)  %identity matrix
 zeros(3)  %null matrix
+ones(3,2)  %unit matrix
