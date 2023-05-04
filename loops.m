@@ -20,9 +20,9 @@ for i=1:10
 end
 
 S=0;
-for i=1:10
-    if mod(x(i),3)==0
-        S=S+x(i);
+for i=x
+    if mod(i,3)==0
+        S=S+i;
     end
 end
 disp(S);
