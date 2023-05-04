@@ -16,3 +16,5 @@ i
 i*i
 i^2
 sin(pi)+i*cos(pi)
+
+eye(3)  %identity matrix
