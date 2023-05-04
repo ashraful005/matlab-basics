@@ -7,3 +7,4 @@ result=inv(A)*b';
 A\b';
 det(A)  %determinant
 eig(A)   %eigenvalues
+[v,D]= eig(A)  %eigenvalues and eigenvectors
