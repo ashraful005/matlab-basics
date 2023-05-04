@@ -16,4 +16,6 @@ A./B  %element by element division
 
 x=[1 2 3];
 y=[4 5 6];
-dot(x,y)
+dot(x,y)  %inner product(1x1 matrix)
+
+x'*y    %outer product(3x3 matrix)
