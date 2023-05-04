@@ -9,4 +9,10 @@ sin(A)
 exp(A)
 log(A)
 sqrt(A)
-pi=2
+pi
+exp(1)
+sqrt(-1)
+i
+i*i
+i^2
+sin(pi)+i*cos(pi)
