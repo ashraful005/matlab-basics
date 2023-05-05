@@ -21,3 +21,8 @@ bar(x,y)
 x=randn(1000,1);
 plot(x)
 hist(x)
+hist(x,50)
+
+%pie
+x=1:5
+pie(x)
