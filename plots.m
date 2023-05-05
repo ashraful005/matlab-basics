@@ -9,4 +9,7 @@ x=linspace(0,2*pi,100);
 y=sin(x);
 y2=cos(x);
 plot(x,y,'--',x,y2,'.');
-openfig('sine_cosine.fig');
+%openfig('sine_cosine.fig');
+
+n=1:10;
+bar(n)
