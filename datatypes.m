@@ -1,6 +1,8 @@
 clc;
 clear all;
 close all;
+
+%structures
 my_struct.name='Ashraful'
 my_struct.age=23
 my_struct
@@ -14,3 +16,10 @@ my_struct.contact.email='emdashrafulalam@gmail.com'
 my_struct.contact
 
 S=struct('name', 'Bob', 'email', 'bobi@gmail.com')
+
+
+%cell
+my_cell{1}='hello world!';
+my_cell
+my_cell{'A'} = [1 2; 3 4];
+my_cell
