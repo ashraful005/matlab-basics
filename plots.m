@@ -13,3 +13,11 @@ plot(x,y,'--',x,y2,'.');
 
 n=1:10;
 bar(n)
+x=linspace(0,2*pi,100);
+y=sin(x);
+bar(x,y)
+
+%histogram
+x=randn(1000,1);
+plot(x)
+hist(x)
