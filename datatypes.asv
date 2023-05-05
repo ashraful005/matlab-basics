@@ -13,4 +13,4 @@ my_struct.contact.phone = 01717043341
 my_struct.contact.email='emdashrafulalam@gmail.com'
 my_struct.contact
 
-S=struct('name', 'Bob', 'email', 'bobi@gmail.com')
+S=struct
