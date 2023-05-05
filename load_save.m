@@ -2,4 +2,6 @@ clc;
 clear all;
 close all;
 xlsread('matlab_example.xlsx')
-csvread('csv_example.csv')
+A=csvread('csv_example.csv')
+B=eye(4)*5
+csvwrite('another.csv', B)
