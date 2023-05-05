@@ -8,4 +8,4 @@ plot(t,w);
 x=linspace(0,2*pi,100);
 y=sin(x);
 y2=cos(x);
-plot(x,y,'-',x,y2,'.');
+plot(x,y,'--',x,y2,'.');
