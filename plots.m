@@ -26,3 +26,8 @@ hist(x,50)
 %pie
 x=1:5
 pie(x)
+
+x=linspace(0,2*pi,1000);
+y=10*sin(x)+randn(1,1000);
+plot(x,y)
+scatter(x,y)
